@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    height: 90vh;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.left-column {
+    display: block;
+    flex-direction: column;
+}
+
+.right-column {
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.rating-img {
+    width: 150px;
+}
+
+.breadcrumb {
+    color: #565959;
+}
+
+.author-link {
+    color: #007185;
+}
